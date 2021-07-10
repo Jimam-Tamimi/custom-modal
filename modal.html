@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b5e36b87ea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Animation</title>
+</head>
+<body>
+
+    <div class="btn-cont">
+        <button class="modal-toggler btn btn-primary" id="open-first-modal" data-toggle="open-first-modal-toggle" >Open</button>
+    </div>
+    <div  id="open-first-modal-toggle" class="modal-cont">
+        <div class="modal animate__animated ">
+            <div class="heading">
+                <h3>My Modal</h3>
+                <div class="close-modal modal-close-btn"><i class="fas fa-times"></i></div>
+                
+            </div>
+            <div class="modal-content">
+
+            </div>
+            <div class="actions">
+                <button  style="background: #6c757d;" class="btn btn-sm modal-close-btn">Close</button>
+                <button  class="btn btn-sm">Submit</button>
+            </div>
+            
+            
+        </div>
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
